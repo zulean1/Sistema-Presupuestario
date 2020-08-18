@@ -3,7 +3,7 @@ Options All -Indexes
 RewriteEngine on
 
 
-RewriteBase /presupuesto
+RewriteBase /Presupuesto
 
 
 
