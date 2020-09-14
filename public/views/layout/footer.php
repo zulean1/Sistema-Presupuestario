@@ -9,7 +9,7 @@
 
       <ul class="list-unstyled text-small">
         <li>
-         <img src="<?php echo url_base ();?>presupuesto/public/img/ais.jpeg" class="rounded-circle" alt="...">
+         <img src="<?php echo url_base ();?>Presupuesto/public/img/ais.jpeg" class="rounded-circle" alt="...">
        </li>
      </ul>
    </div>
@@ -24,7 +24,7 @@
  <div class="col-6 col-md">
 
   <ul class="list-unstyled text-small">
-    <img src="<?php echo url_base ();?>presupuesto/public/img/unerg.jpeg" class="rounded-circle " alt="...">
+    <img src="<?php echo url_base ();?>Presupuesto/public/img/unerg.jpeg" class="rounded-circle " alt="...">
   </ul>
 </div>
 </div>

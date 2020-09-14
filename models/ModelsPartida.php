@@ -44,18 +44,13 @@ class ModelsPartida extends Conexion
 
          $v_editar=$this->pdo->prepare($editar);
        $v_editar->execute(array($id, $codigo, $denominacion ));
-
-       
-
-
     }
 
 
     public  function eliminar($id_partida){
        $eliminar=' DELETE FROM partida WHERE id=? ';
        $eliminar_id= $this->pdo->prepare($eliminar);
-       $eliminar_id->execute(array($id));
-
+       $eliminar_id->execute(array($id_partida));
       
      }
 

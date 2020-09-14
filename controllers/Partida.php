@@ -30,7 +30,7 @@
 
       if ($_GET) {
 
-         $id_partida= $_GET["id"];
+        $id_partida= $_GET['id'];
         $models = new CoreModels("ModelsPartida");
         $ModelsPartida= new ModelsPartida();
         $partida = $ModelsPartida->lista($id_partida);
@@ -75,7 +75,7 @@
 
       if ($_GET) {
 
-         $id_partida = $_GET["id_partida"];
+        $id_partida = $_GET['id'];
         $models = new CoreModels("ModelsPartida");
         $ModelsPartida= new ModelsPartida();
         $partida = $ModelsPartida->eliminar($id_partida);

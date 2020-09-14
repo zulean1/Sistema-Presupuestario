@@ -9,7 +9,7 @@
    </tr>
  </thead>
  <tbody class="bg-light">
-   <?php foreach ($dato["partida"] as $partidas): ?>
+   <?php foreach ($dato['partida'] as $partidas): ?>
     <tr>
       <th><?php echo $partidas['Codigo'] ?></th>
       <th><?php echo $partidas['Denominacion'] ?></th>

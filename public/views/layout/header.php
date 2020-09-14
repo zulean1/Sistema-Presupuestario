@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	   <link rel="stylesheet" href="<?php echo url_base ();?>Presupuesto/public/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="annymous">
 	 <title>Sistema Presupuestario</title>
 </head>
 <body>
@@ -36,14 +36,14 @@
   <div class="col-3 bg-primary" class="accordion" id="barra" style=" height: 700px;">
     <ul class="nav flex-column ">
          <li class="nav-item">
-               <a class="nav-link text-white " href=""><i class="fas fa-home"></i> Inicio</a>
+               <a class="nav-link text-white " href="<?php echo url_base ();?>Presupuesto/principal"><i class="fas fa-home"></i> Inicio</a>
              </li>
              <li class="nav-item my-2 mx-2" class="btn btn-link collapsed" data-toggle="collapse" data-target="#libros" aria-expanded="false" aria-controls="libros" >
              <a class="nav-link text-white " href="#">Ejercicio Fiscal <i class="fas fa-angle-down"></i></a>
              <div id="libros" class="collapse" aria-labelledby="libros" data-parent="#barra">
                  <ul class="nav flex-column ">
                     <li class="nav-item">
-                    <a class="nav-link text-white " href="../ejercicio_fiscal/registrar">Registrar</a>
+                    <a class="nav-link text-white " href="<?php echo url_base ();?>Presupuesto/ejercicio_fiscal/registrar">Registrar</a>
                    </li>
                    <li class="nav-item">
                       <a class="nav-link text-white" href="../ejercicio_fiscal/listar">Control</a>
@@ -62,10 +62,10 @@
                  <div id="tesis" class="collapse" aria-labelledby="tesis" data-parent="#barra">
                      <ul class="nav flex-column ">
                         <li class="nav-item">
-                         <a class="nav-link text-white" href="../Partida/registrar">Registrar</a>
+                         <a class="nav-link text-white" href="<?php echo url_base ();?>Presupuesto/Partida/registrar">Registrar</a>
                         </li>
                        <li class="nav-item">
-                         <a class="nav-link text-white" href="../Partida/listado">Control</a>
+                         <a class="nav-link text-white" href="<?php echo url_base ();?>Presupuesto/Partida/listado">Control</a>
                       </li>
                       <li class="nav-item">
                       <a class="nav-link text-white" href="../SubPartida/registrar">Sub Partidas</a>
@@ -77,7 +77,7 @@
            <div id="proyectos" class="collapse" aria-labelledby="proyectos" data-parent="#barra">
       <ul class="nav flex-column ">
           <li class="nav-item">
-             <a class="nav-link text-white" href="../autorizacion_de_gastos/registrar">Registrar</a>
+             <a class="nav-link text-white" href="<?php echo url_base ();?>Presupuesto/autorizacion_de_gastos/registrar">Registrar</a>
           </li>
           <li class="nav-item">
              <a class="nav-link text-white" href="#">Control</a>
@@ -94,7 +94,7 @@
           <div id="prestamo" class="collapse" aria-labelledby="prestamo" data-parent="#barra">
       <ul class="nav flex-column ">
           <li class="nav-item">
-             <a class="nav-link text-white" href="../credito_adicional/registrar">Registrar</a>
+             <a class="nav-link text-white" href="<?php echo url_base ();?>Presupuesto/credito_adicional/registrar">Registrar</a>
           </li>
           <li class="nav-item">
              <a class="nav-link text-white" href="#">Control</a>
@@ -111,10 +111,10 @@
           <div id="usuarios" class="collapse" aria-labelledby="usuarios" data-parent="#barra">
           <ul class="nav flex-column ">
           <li class="nav-item">
-             <a class="nav-link text-white " href="../usuario/registrar"><i class="fas fa-user-plus"></i> Registrar</a>
+             <a class="nav-link text-white " href="<?php echo url_base ();?>Presupuesto/usuario/registrar"><i class="fas fa-user-plus"></i> Registrar</a>
           </li>
           <li class="nav-item">
-             <a class="nav-link text-white" href="../usuario/listado">Control</a>
+             <a class="nav-link text-white" href="<?php echo url_base ();?>Presupuesto/usuario/listado">Control</a>
           </li>
           <li class="nav-item">
           <a class="nav-link text-white" href="#">Reportes</a>
